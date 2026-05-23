@@ -49,10 +49,6 @@ def init_folder_vector_db():
     # 외부 파일이 없을 때를 대비한 백업용 기본 고정 지식 데이터(프로그램 일정 가이드라인)
     raw_texts = [
         "EPITECH Paris Campus is a leading IT and computer science higher education institution in France.",
-        "The 2026 Summer Global Program begins with a departure from Incheon to Paris on June 27th.",
-        "The core AI Hackathon project runs for 3 days, from July 8th to July 10th.",
-        "The final presentation and evaluation of the Hackathon will take place on July 10th at 2:00 PM.",
-        "The program includes basic French language classes and Paris cultural experience activities."
     ]
     
     # 4-1. 먼저 고정형 기본 텍스트 지식들을 벡터화하여 초기 Chroma 벡터 저장소 생성
